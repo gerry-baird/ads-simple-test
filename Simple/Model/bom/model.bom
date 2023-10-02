@@ -1,0 +1,26 @@
+
+package gerry.baird_uk.ibm.com.gerry_test.simple.model;
+
+
+class Person
+        property ads.typeId "1"
+        property com.fasterxml.jackson.annotation.JsonTypeName "Person"
+        #de.generated
+{
+    long age
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "age"
+                #update;
+    string name
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "name"
+                #update;
+    Person(long age, string name)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    Person()
+                #dataio.default;
+}
+

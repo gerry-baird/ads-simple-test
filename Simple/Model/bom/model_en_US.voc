@@ -1,0 +1,11 @@
+
+# gerry.baird_uk.ibm.com.gerry_test.simple.model.Person
+gerry.baird_uk.ibm.com.gerry_test.simple.model.Person#concept.documentation = 
+gerry.baird_uk.ibm.com.gerry_test.simple.model.Person#concept.label = Person
+gerry.baird_uk.ibm.com.gerry_test.simple.model.Person.Person(long,java.lang.String)#phrase.navigation = a new {Person} where {0, age} {1, name}
+gerry.baird_uk.ibm.com.gerry_test.simple.model.Person.age#phrase.action = set the age of {this} to {age}
+gerry.baird_uk.ibm.com.gerry_test.simple.model.Person.age#phrase.addition_setter = add {age} to the age of {this}
+gerry.baird_uk.ibm.com.gerry_test.simple.model.Person.age#phrase.navigation = {age} of {this}
+gerry.baird_uk.ibm.com.gerry_test.simple.model.Person.age#phrase.subtraction_setter = subtract {age} from the age of {this}
+gerry.baird_uk.ibm.com.gerry_test.simple.model.Person.name#phrase.action = set the name of {this} to {name}
+gerry.baird_uk.ibm.com.gerry_test.simple.model.Person.name#phrase.navigation = {name} of {this}

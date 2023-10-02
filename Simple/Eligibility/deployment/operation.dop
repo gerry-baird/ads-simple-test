@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Eligibility">
+  <name>Eligibility</name>
+  <uuid>fa2a6f7d-69dc-42f6-aa21-d50b681e6daa</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#71caa321-4b82-430e-9438-a9d7186ba872"/>
+  <targetRuleProject href="../../Eligibility#ccdd90dd-d8b8-4041-b910-a0fb1acf91fd"/>
+  <tags key="operationDescription">
+    <value><![CDATA[""]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["Eligibility"]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[true]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>
